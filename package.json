@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"ember-can",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "ember-can",
+    "description": "api documentation for [ember-can (v0.8.4)](https://github.com/minutebase/ember-can#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-ember-can.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-can) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-can.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-can)",
     "devDependencies": {
-        "ember-can": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "ember-can": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-ember-can",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-ember-can",
+    "keywords": [
+        "documentation",
+        "ember-can"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_ember_can.js",
+    "name": "npmdoc-ember-can",
+    "nameAlias": "npmdoc_ember_can",
+    "nameOriginal": "npmdoc-ember-can",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-ember-can"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
