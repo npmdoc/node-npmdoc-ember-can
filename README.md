@@ -1,9 +1,14 @@
-# api documentation for  [ember-can (v0.8.4)](https://github.com/minutebase/ember-can#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ember-can.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-can) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-can.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-can)
+# npmdoc-ember-can
+
+#### api documentation for  [ember-can (v0.8.4)](https://github.com/minutebase/ember-can#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ember-can.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-can) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-can.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-can)
+
 #### Simple authorisation addon for Ember apps
 
-[![NPM](https://nodei.co/npm/ember-can.png?downloads=true)](https://www.npmjs.com/package/ember-can)
+[![NPM](https://nodei.co/npm/ember-can.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ember-can)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-ember-can/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-ember-can_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ember-can/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-ember-can/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-ember-can/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-ember-can/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ember-can/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-ember-can/build/screenCapture.npmPackageListing.svg)
 
@@ -17,20 +22,17 @@
 
 {
     "author": {
-        "name": "Richard Livsey",
-        "email": "richard@minutebase.com"
+        "name": "Richard Livsey"
     },
     "bugs": {
         "url": "https://github.com/minutebase/ember-can/issues"
     },
     "contributors": [
         {
-            "name": "Ben Limmer",
-            "email": "hello@benlimmer.com"
+            "name": "Ben Limmer"
         },
         {
-            "name": "Miles Zimmerman",
-            "email": "miles@maztek.io"
+            "name": "Miles Zimmerman"
         }
     ],
     "dependencies": {
@@ -84,17 +86,14 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "blimmer",
-            "email": "ben@benlimmer.com"
+            "name": "blimmer"
         },
         {
-            "name": "rlivsey",
-            "email": "richard@livsey.org"
+            "name": "rlivsey"
         }
     ],
     "name": "ember-can",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/minutebase/ember-can.git"
@@ -107,17 +106,6 @@
     "version": "0.8.4"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module ember-can](#apidoc.module.ember-can)
-1.  string <span class="apidocSignatureSpan">ember-can.</span>name
-
-
-
-# <a name="apidoc.module.ember-can"></a>[module ember-can](#apidoc.module.ember-can)
 
 
 
