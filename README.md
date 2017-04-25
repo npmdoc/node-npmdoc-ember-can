@@ -1,6 +1,6 @@
 # npmdoc-ember-can
 
-#### api documentation for  [ember-can (v0.8.4)](https://github.com/minutebase/ember-can#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ember-can.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-can) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-can.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-can)
+#### basic api documentation for  [ember-can (v0.8.4)](https://github.com/minutebase/ember-can#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ember-can.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-can) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-can.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-can)
 
 #### Simple authorisation addon for Ember apps
 
@@ -103,7 +103,8 @@
         "start": "ember server",
         "test": "ember try:each"
     },
-    "version": "0.8.4"
+    "version": "0.8.4",
+    "bin": {}
 }
 ```
 
